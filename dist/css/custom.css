@@ -1,0 +1,151 @@
+.locale-dropdown .dropdown-menu {
+    width: auto !important;
+}
+.locale-dropdown i {
+    margin: 0px 5px;
+}
+
+table tbody tr:hover{
+    background: #D9EDF7 !important;
+}
+.ten-san-pham a {
+    color: #0092d0;
+}
+.ten-san-pham a.delete {
+    display: block;
+    color: #d93833;
+    font-size: 15px;
+}
+form.don-hang-gio-hang-add-form .shop-item h3 {
+    margin: 0px;
+    background: #e5e5e5;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+form.don-hang-gio-hang-add-form .shop-item h3 input.shop-check-all {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+form.don-hang-gio-hang-add-form .shop-item .shop-tong ul {
+    padding: 0px;
+    margin: 0px;
+}
+form.don-hang-gio-hang-add-form .shop-item .shop-tong ul li span div.hover.hiden {
+    position: absolute;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 999;
+    display:none;
+}
+form.don-hang-gio-hang-add-form .shop-item .shop-tong ul li span:hover div.hover.hiden {
+    display:block;
+}
+form.don-hang-gio-hang-add-form .shop-item .shop-tong ul li span div.hover p {
+
+}
+form.don-hang-gio-hang-add-form .shop-item .shop-tong ul li span div.hover a{
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #005e91;
+}
+form.don-hang-gio-hang-add-form .shop-item .shop-tong .form-item  label class="control-label"{
+    font-weight: normal;
+}
+form.don-hang-gio-hang-add-form .shop-item .shop-tong .form-item textarea {
+    border-radius: 4px;
+}
+form.don-hang-gio-hang-add-form .shop-item .shop-tong .form-item .grippie {
+    display:none;
+}
+ul li.tong-tien-theo-shop b {
+    color: #d93833;
+    font-size: 16px;
+}
+form.don-hang-gio-hang-add-form .shop-item table tr td a.delete-shop {
+    color: #174b84;
+    font-size: 15px;
+}
+a.product-name {
+    color: #185493;
+}
+form.don-hang-gio-hang-add-form .shop-item .dich-vu-khac .form-item i {
+    color: #8e8b8b;
+}
+form.don-hang-gio-hang-add-form .shop-item .dich-vu-khac .form-item.blue i {
+    color: #0a960e;
+}
+
+.san-pham-item-image {
+    position:relative;
+    float:left;
+}
+.san-pham-item-image .image-hover {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    left: 32px;
+    top: 32px;
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.san-pham-item-image:hover .image-hover {
+    display:block;
+}
+form.don-hang-gio-hang-add-form .shop-item .dich-vu-khac {
+    float: right;
+    position: absolute;
+    right: 15px;
+    top: 6px;
+}
+form.don-hang-gio-hang-add-form .shop-item .dich-vu-khac .form-item {
+    display: inline;
+    margin-left: 10px;
+}
+form.don-hang-gio-hang-add-form .shop-item table.data-item tr th {
+    border: 1px solid #e5e5e5;
+}
+form.don-hang-gio-hang-add-form .shop-item table.data-item tr td {
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+}
+form.don-hang-gio-hang-add-form .shop-item table.data-item tr td a.delete{
+    color: #f44336;
+}
+table tr td .hinh-anh .product-img {
+    display: inline-block;
+    width: 97px;
+    height: 100px;
+}
+table tr td .hinh-anh .product-img a.btn-upload {
+    position: relative;
+}
+table tr td .hinh-anh .product-img a.img-upload {
+    display: inline-block;
+    width: 48%;
+    background: #3182c1;
+    color: white;
+    margin-top: 5px;
+}
+table tr td .hinh-anh .product-img a.open-modal-img {
+    background: #67b720;
+}
+.img-upload {
+    max-width: 100px;
+    max-height: 100px;
+}
+table tr td .hinh-anh .product-img a.btn-upload input {
+    float: left;
+    position: absolute;
+    left: 0px;
+    width: 46px;
+    background: none;
+    opacity: 0.0;
+    cursor: pointer;
+}
